@@ -1,8 +1,21 @@
+channels:
+- defaults
+- conda-forge
 dependencies:
- - python=3.7.3
- - numpy
- - scipy
- - scikit-learn
- - jupyter
- - requests
- - click
+- python=3.7.3
+- numpy
+- scipy
+- scikit-learn
+- jupyter
+- ipykernel
+- requests
+- pandas
+- seaborn
+- click
+- openpyxl
+- matplotlib
+- pip:
+  - watermark
+  - pytest
+  - sklearn
+  - autopep8

@@ -707,4 +707,4 @@ if __name__ == '__main__':
     PsCm.parser()
     PsCm.separator()
     PsCm.combiner()
-    PsCm.modeler()    
+    PsCm.modeler()

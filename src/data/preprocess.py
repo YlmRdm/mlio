@@ -699,8 +699,14 @@ class PsCm(object):
 
         data = pd.read_csv("data.csv")
         data.head()
-        sns.FacetGrid(data, hue="error_label", height=5).map(sns.distplot, "operation_label").add_legend()
-        data.dtypes
+        sns.FacetGrid(data, hue="error_label", height=15).map(sns.distplot, "operation_label").add_legend()
+        df_filtered = df[df['error_label'] == 0]
+        df_filtered.shape
+        df.shape
+        df['error_label'].value_counts()
+        df_filtered.drop(columns=['error', 'error_label', 'flag'], inplace=True)
+        df_filtered.head(15)
+
         # sns.pairplot(data, vars=['pid', 'rs', 'error_label'], hue='operation')
 
 if __name__ == '__main__':

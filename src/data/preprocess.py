@@ -699,10 +699,12 @@ class PsCm(object):
 
         data = pd.read_csv("data.csv")
         data.head()
-        # sns.pairplot(df, vars=['pid', 'idfile', 'rs', 'size'], hue='operation_label')
+        sns.FacetGrid(data, hue="error_label", height=5).map(sns.distplot, "operation_label").add_legend()
+        data.dtypes
+        # sns.pairplot(data, vars=['pid', 'rs', 'error_label'], hue='operation')
 
 if __name__ == '__main__':
     PsCm.parser()
     PsCm.separator()
     PsCm.combiner()
-    PsCm.modeler()
+    PsCm.modeler()    

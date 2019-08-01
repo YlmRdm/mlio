@@ -6,7 +6,7 @@ docstring when the file is imported.
 import pandas as pd
 import glob
 import os
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.preprocessing import LabelEncoder
 # from functools import reduce

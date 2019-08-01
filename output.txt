@@ -1,0 +1,43 @@
+/Users/ylmrdm/mlio/data/preprocessed
+Total open datas:
+ False    16737
+True      1260
+Name: operation, dtype: int64
+Total read datas:
+ False    10546
+True      7451
+Name: operation, dtype: int64
+Total write datas:
+ False    9270
+True     8727
+Name: operation, dtype: int64
+Total close datas:
+ False    17401
+True       596
+Name: operation, dtype: int64
+<class 'pandas.io.excel.ExcelFile'>
+<class 'pandas.io.excel.ExcelFile'>
+<class 'pandas.io.excel.ExcelFile'>
+<class 'pandas.io.excel.ExcelFile'>
+414
+846
+994
+6359
+1571
+7156
+216
+380
+Number of write operations;
+ 5149
+Number of read operations;
+ 4176
+Number of open operations;
+ 837
+Number of close operations;
+ 406
+['read.xlsx', 'close.xlsx', 'open.xlsx', 'write.xlsx']
+Total No of Write:
+ False    5419
+True     5149
+Name: operation, dtype: int64
+<class 'pandas.io.excel.ExcelFile'>837-279

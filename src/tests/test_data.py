@@ -8,9 +8,9 @@ def test_raw_shape():
 
 def test_get_features_shape():
     dframe = read_raw_data()
-    processed = preprocess_data(dframe)
-    features = get_featues(processed)
-    label = get_label(processed)
+    preprocessed = preprocess_data(dframe)
+    features = get_featues(preprocessed)
+    label = get_label(preprocessed)
 
     assert features.shape == (150, 4)
     assert label.shape == (150,)

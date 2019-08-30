@@ -2,9 +2,9 @@
 MLIO is a machine learning project for my master thesis...
 
 Dependencies:
-- Python v3.7.3
-- conda 4.7.5
-- pip 19.0.3
+- Python v3.7.4
+- conda 4.7.11
+- pip 19.2.3
 
 Tools:
 - Atom IDE
